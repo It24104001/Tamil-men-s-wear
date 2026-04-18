@@ -1,18 +1,11 @@
 {
-  "name": "mobile_app",
+  "name": "tmw-root",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "Root workspace to run frontend and backend currently",
   "scripts": {
-    "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
-    "web": "expo start --web"
+    "start": "concurrently \"npm run start --prefix backend\" \"npm run start --prefix mobile_app\""
   },
-  "dependencies": {
-    "expo": "~54.0.33",
-    "expo-status-bar": "~3.0.9",
-    "react": "19.1.0",
-    "react-native": "0.81.5"
-  },
-  "private": true
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
 }
