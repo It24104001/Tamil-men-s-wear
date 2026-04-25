@@ -2,6 +2,7 @@
   "expo": {
     "name": "mobile_app",
     "slug": "mobile_app",
+    "scheme": "tmw",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -16,6 +17,7 @@
       "supportsTablet": true
     },
     "android": {
+      "package": "com.tmw.app",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
@@ -32,7 +34,8 @@
           "merchantIdentifier": "merchant.com.tmw",
           "enableGooglePay": false
         }
-      ]
+      ],
+      "expo-web-browser"
     ]
   }
 }

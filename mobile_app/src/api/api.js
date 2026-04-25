@@ -1,8 +1,11 @@
 import axios from 'axios';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
-const API_URL = 'http://172.17.164.158:5000/api'; // Discovered network IP
+import { Platform } from 'react-native';
 
+const IP = '10.153.19.158'; // Update this if testing on physical mobile device
+const API_URL = Platform.OS === 'web' ? 'http://localhost:5000/api' : `http://${IP}:5000/api`; 
+export const baseURL = Platform.OS === 'web' ? 'http://localhost:5000' : `http://${IP}:5000`;
 
 const api = axios.create({
   baseURL: API_URL,

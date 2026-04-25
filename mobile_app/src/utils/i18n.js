@@ -14,7 +14,22 @@ export const translations = {
     yourCart: 'Your Cart',
     total: 'Total',
     checkout: 'Proceed to Checkout',
-    emptyCart: 'Your cart is empty.'
+    emptyCart: 'Your cart is empty.',
+    searchPlaceholder: 'Search collections, shirts, suits...',
+    discover: 'DISCOVER',
+    excellence: 'EXCELLENCE',
+    fewLeft: '🔥 FEW LEFT',
+    noStyles: 'No styles found matching your criteria.',
+    all: 'all',
+    shirts: 'shirts',
+    pants: 'pants',
+    suits: 'suits',
+    traditional: 'traditional',
+    formal: 'formal',
+    casual: 'casual',
+    ethnic: 'ethnic',
+    accessories: 'accessories',
+    innerwear: 'innerwear'
   },
   ta: {
     featured: 'சிறப்பு தொகுப்பு',
@@ -31,7 +46,22 @@ export const translations = {
     yourCart: 'உங்கள் வண்டி',
     total: 'மொத்தம்',
     checkout: 'பணம் செலுத்த தொடரவும்',
-    emptyCart: 'உங்கள் வண்டி காலியாக உள்ளது.'
+    emptyCart: 'உங்கள் வண்டி காலியாக உள்ளது.',
+    searchPlaceholder: 'சேகரிப்புகள், சட்டைகளைத் தேடுங்கள்...',
+    discover: 'கண்டுபிடி',
+    excellence: 'சிறப்பு',
+    fewLeft: '🔥 சில மட்டுமே',
+    noStyles: 'உங்கள் தேடலுக்கு ஏற்ற ஆடைகள் இல்லை.',
+    all: 'எல்லாம்',
+    shirts: 'சட்டைகள்',
+    pants: 'பேன்ட்',
+    suits: 'சூட்ஸ்',
+    traditional: 'பாரம்பரிய',
+    formal: 'பார்மல்',
+    casual: 'கேசுவல்',
+    ethnic: 'எத்னிக்',
+    accessories: 'பாகங்கள்',
+    innerwear: 'உள்ளாடை'
   }
 };
 
